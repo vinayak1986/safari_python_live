@@ -13,3 +13,5 @@ data = u.read()
 doc = XML(data)
 for pt in doc.findall('.//pt'):
     print(pt.text)
+
+#test
